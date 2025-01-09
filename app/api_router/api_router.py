@@ -46,6 +46,8 @@ class APIRouter:
 
         # TODO: Other restrictions
 
+        # TODO: Cached entry? Return from cache
+
         # this is where the API is ready to be forwarded
 
         # Add API headers to the request so that backend can ensure the request is coming from APIGateway
