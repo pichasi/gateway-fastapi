@@ -80,3 +80,5 @@ Response
 ```json
 {"orders":["O1","O2"]}
 ```
+
+[Full Article](https://medium.com/@upesh.jindal/build-your-own-api-gateway-using-fastapi-af4b905dbd27)
