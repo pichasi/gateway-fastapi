@@ -1,6 +1,17 @@
 # API Gateway Demo
 
-## Instalation
+## Main components
+1. backend: Maintained in backend folder
+2. APIRouter: Maintained in api_router folder
+3. APIRouter landing endpoint: Maintained in app/main.py
+
+## How does it work
+
+1. An API Request, such as /orders, lands on API Gateway port 8000.
+2. main::route calls APIRouter::route method.
+3. route method runs a series of validations to let the call pass through.
+
+## Installation
 
 Clone the repository
 ```bash
@@ -35,7 +46,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 From another shell, run these commands one by one and see response:
 
-1. Non-existant URL:
+1. Non-existent URL:
 ```bash
 curl --location 'http://localhost:8000/doesnotexist'
 ```
