@@ -1,5 +1,7 @@
 # API Gateway Demo
 
+This is a simple implementation of an API Gateway using FastAPI. In another post, we will look at implementation using NodeJS, SpringBoot and others.
+
 ## Main components
 1. backend: Maintained in backend folder
 2. APIRouter: Maintained in api_router folder
